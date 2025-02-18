@@ -1,0 +1,46 @@
+{
+    "name": "crud-tasks",
+    "version": "1.0.0",
+    "description": "CRUD de Taks.",
+    "rootDir": "src",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node src/server.ts",
+        "test": "jest --passWithNoTests",
+        "test:watch": "jest --watch",
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "eslint . --ext .ts --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.19.5",
+        "@types/bull": "^4.10.4",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/jest": "^29.0.0",
+        "@types/node": "^20.17.16",
+        "@types/ws": "^8.5.14",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.0.0",
+        "jest": "^29.0.0",
+        "nodemon": "^3.1.9",
+        "prettier": "^3.0.0",
+        "ts-jest": "^29.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "bull": "^4.16.5",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "express-validator": "^7.2.1",
+        "mongoose": "^8.10.1"
+    }
+}
