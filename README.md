@@ -31,7 +31,7 @@ Obs: Não houve integração com RabbitMQ ou Kafka, por ser mais extenso a imple
 
 Result:
 
-![API](.docs/gifs/local.gif)
+![API](docs/gifs/local.gif)
 
 ## 1.1. Stack
 
